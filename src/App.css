@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.item_1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+}
+
+.left .left_1 {
+    margin-right: 10rem;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid purple;
+    border-radius: 5px;
+    border-bottom: 5px solid purple;
+}
+
+.left .left_2 {
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.left .left_2 h4 {
+    margin: 20px;
+    text-align: right;
+}
+
+.left .left_2 h2 {
+    margin: 20px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right button {
+    width: 200px;
+    height: 50px;
+    border-bottom: 5px solid purple;
+    background-color: rgb(255, 129, 255);
+    font-size: larger;
+}
